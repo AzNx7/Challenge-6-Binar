@@ -1,0 +1,3 @@
+http://localhost:7000/database 
+
+to connect or view database

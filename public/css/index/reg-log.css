@@ -1,0 +1,17 @@
+.text {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: 10%;
+  margin: 20px;
+  color: #ffffff;
+  }
+
+  .bg-color {
+    height: 100%;
+      width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-color: #181818;
+  }

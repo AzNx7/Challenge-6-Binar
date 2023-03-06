@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/index/reg-log.css" rel="stylesheet "/>
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="bg-color">
+      <div class="text" style="margin: auto; width: 30vw">
+        <h1>Create User Page</h1>
+        <form action="/user/create" method="post" id="create-user">
+          <h4>User Game</h4>
+          <input
+            name="username"
+            placeholder="Username"
+            style="display: block; margin-bottom: 5px"
+          />
+          <input
+            name="password"
+            placeholder="Password"
+            style="display: block; margin-bottom: 5px"
+          />
+          <br />
+          <h4>User Game Biodata</h4>
+          <input
+            name="fullname"
+            placeholder="Your name"
+            style="display: block; margin-bottom: 5px"
+          />
+          <input
+            name="city"
+            placeholder="City"
+            style="display: block; margin-bottom: 5px"
+          />
+          <input
+            name="age"
+            placeholder="Age"
+            style="display: block; margin-bottom: 5px"
+          />
+          <div>
+            <input
+              id="radio-male"
+              type="radio"
+              name="gender"
+              value="male"
+              style="display: inline-block; margin-bottom: 5px"
+            />
+            <label for="radio-male">Male</label>
+          </div>
+    
+          <div>
+            <input
+              id="radio-female"
+              type="radio"
+              name="gender"
+              value="female"
+              style="display: inline-block; margin-bottom: 5px"
+            />
+            <label for="radio-female">Female</label>
+          </div>
+    
+          <button style="margin-top: 10px">Create User</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script>
+  </script>
+</html>
